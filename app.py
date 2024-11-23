@@ -7,8 +7,9 @@ import openai
 # Initialize Flask app
 app = Flask(__name__)
 
-# Set OpenAI API Key
-openai.api_key = "YOUR_OPENAI_API_KEY"
+# Set NeVA API Key
+# associated with mukilk@iitb.ac.in
+openai.api_key = "nvami-xTr1qKfrG8ucv9zjxB4DD5R1eJOA77udvXlOBW4nATMy8W_rkHRETnX5RhUqcIwp"
 
 @app.route("/")
 def index():
