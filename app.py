@@ -35,15 +35,15 @@ def analyze_image():
 
     # Example: AI model generates a description (use OpenAI here)
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="neva-22b preview",
         messages=[
             {
                 "role": "system",
-                "content": "You are an AI that explains image composition in detail."
+                "content": "Prado biases"
             },
             {
                 "role": "user",
-                "content": "Explain the composition of an uploaded image."
+                "content": "Mukil_IDC_or_IXD_Biases."
             }
         ]
     )
